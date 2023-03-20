@@ -1,0 +1,32 @@
+{
+    "name": "larahmat/elasticlog",
+    "description": "Logging to Elasticsearch",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^10.4",
+        "phpunit/phpunit": "^10.0",
+        "elasticsearch/elasticsearch": "^8.6",
+        "php": "^7.3|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Larahmat\\Elasticlog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rahmat Setiawan",
+            "email": "setiawaneggy@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": false
+        }
+    }
+}
